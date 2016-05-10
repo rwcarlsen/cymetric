@@ -70,6 +70,7 @@ def ensure_dt_bytes(dt):
         if len(t) == 3:
             ty = ty + t[2:]
         dety.append(ty)
+    print(dety)
     return dety
 
 def raise_no_pyne(msg, have_pyne=False):
